@@ -1,0 +1,37 @@
+
+
+Ahora explicaré brevemente qué hace cada parte del programa:
+
+1. La función `generar_matriz(n)` recibe un número entero `n` y 
+devuelve una matriz cuadrada de tamaño `n x n`. Utiliza bucles `for` 
+para generar cada fila de la matriz y añadir números aleatorios entre 
+0 y 9 a cada posición.
+
+2. La función `imprimir_matriz(matriz)` recibe una matriz y la imprime 
+en la pantalla. Utiliza un bucle `for` para recorrer cada fila de la 
+matriz e imprime cada fila.
+
+3. La función `calcular_suma_filas(matriz)` recibe una matriz y 
+calcula la suma de los elementos de cada fila. Utiliza un bucle `for` 
+para recorrer cada fila de la matriz y la función `sum()` para sumar 
+los elementos de cada fila. Luego, almacena las sumas en una lista.
+
+4. La función `calcular_suma_columnas(matriz)` recibe una matriz y 
+calcula la suma de los elementos de cada columna. Utiliza dos bucles 
+`for`, uno para recorrer cada columna y otro para recorrer cada fila 
+en esa columna. La suma de los elementos se acumula en una variable 
+`suma_columna` y se añade a la lista `suma_columnas` al final de cada 
+columna.
+
+5. La función `imprimir_suma_filas(suma_filas)` recibe una lista con las 
+sumas de cada fila y las imprime en la pantalla, precedidas por un mensaje 
+descriptivo.
+
+6. La función `imprimir_suma_columnas(suma_columnas)` recibe una lista 
+con las sumas de cada columna y las imprime en la pantalla, precedidas 
+por un mensaje descriptivo.
+
+Después de definir todas las funciones, el programa principal pide al 
+usuario ingresar el tamaño de la matriz (`n`). Luego, genera la matriz, 
+la imprime, calcula las sumas de las filas y columnas, y finalmente las 
+imprime en la pantalla.
